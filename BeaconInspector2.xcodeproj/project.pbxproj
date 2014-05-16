@@ -26,6 +26,9 @@
 		B6B94B15192667DB00F8799D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B94AED192667DB00F8799D /* CoreData.framework */; };
 		B6B94B1D192667DB00F8799D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6B94B1B192667DB00F8799D /* InfoPlist.strings */; };
 		B6B94B1F192667DB00F8799D /* BeaconInspector2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B94B1E192667DB00F8799D /* BeaconInspector2Tests.m */; };
+		B6B94B29192668DF00F8799D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B94B28192668DF00F8799D /* CoreBluetooth.framework */; };
+		B6B94B2B192668E900F8799D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B94B2A192668E900F8799D /* CoreLocation.framework */; };
+		B6B94B2D192668F400F8799D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B94B2C192668F400F8799D /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		B6B94B1A192667DB00F8799D /* BeaconInspector2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconInspector2Tests-Info.plist"; sourceTree = "<group>"; };
 		B6B94B1C192667DB00F8799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6B94B1E192667DB00F8799D /* BeaconInspector2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconInspector2Tests.m; sourceTree = "<group>"; };
+		B6B94B28192668DF00F8799D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B6B94B2A192668E900F8799D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6B94B2C192668F400F8799D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B94B2D192668F400F8799D /* CoreAudio.framework in Frameworks */,
+				B6B94B2B192668E900F8799D /* CoreLocation.framework in Frameworks */,
+				B6B94B29192668DF00F8799D /* CoreBluetooth.framework in Frameworks */,
 				B6B94AEA192667DB00F8799D /* CoreGraphics.framework in Frameworks */,
 				B6B94AEE192667DB00F8799D /* CoreData.framework in Frameworks */,
 				B6B94AEC192667DB00F8799D /* UIKit.framework in Frameworks */,
@@ -113,6 +122,9 @@
 		B6B94AE6192667DB00F8799D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6B94B2C192668F400F8799D /* CoreAudio.framework */,
+				B6B94B2A192668E900F8799D /* CoreLocation.framework */,
+				B6B94B28192668DF00F8799D /* CoreBluetooth.framework */,
 				B6B94AE7192667DB00F8799D /* Foundation.framework */,
 				B6B94AE9192667DB00F8799D /* CoreGraphics.framework */,
 				B6B94AEB192667DB00F8799D /* UIKit.framework */,
